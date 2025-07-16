@@ -1,4 +1,4 @@
-# 🚀 Hey there, I'm [Shrey Sharma]! 
+# 🚀 Hey there, I'm Shrey Sharma! 
 ### *Final Year Student | Aspiring ML Engineer | AI Agent Enthusiast*
 
 <div align="center">
