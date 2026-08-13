@@ -55,7 +55,7 @@
         <tspan>cs @ university of lucknow</tspan>
         <tspan fill="#A8A29E"> · </tspan>
         <tspan fill="#C87D5A">ai systems</tspan>
-        <tspan fill="#A8A29E"> · agents · gpu · inference</tspan>
+        <tspan fill="#A8A29E"> · agents · Pre/Post Training · inference</tspan>
       </text>
 
       <line x1="0" y1="215" x2="660" y2="215" stroke="#3A3532" stroke-width="1.5"/>
@@ -87,10 +87,10 @@
       <!-- skill categories -->
       <g font-size="18">
         <text x="0" y="450" fill="#C87D5A">languages</text>
-        <text x="200" y="450" fill="#E7E5E4">Python · C++ · CUDA · SQL · Bash</text>
+        <text x="200" y="450" fill="#E7E5E4">Python · C++ · Java · SQL · Bash</text>
 
         <text x="0" y="484" fill="#C87D5A">ai / ml</text>
-        <text x="200" y="484" fill="#E7E5E4">PyTorch · TensorFlow · Hugging Face · scikit-learn · XGBoost</text>
+        <text x="200" y="484" fill="#E7E5E4">PyTorch · TensorFlow · Hugging Face · scikit-learn · JAX</text>
 
         <text x="0" y="518" fill="#C87D5A">agents &amp; llms</text>
         <text x="200" y="518" fill="#E7E5E4">MCP · LangChain · ChromaDB · QLoRA · PEFT · RAG</text>
