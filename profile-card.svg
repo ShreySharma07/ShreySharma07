@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="planetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D08A66"/>
+      <stop offset="100%" stop-color="#B06844"/>
+    </linearGradient>
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="1200" height="700" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="700" fill="#1C1917"/>
+
+    <!-- starfield -->
+    <g fill="#8A817C" opacity="0.55">
+      <circle cx="80" cy="120" r="2.5"/>
+      <circle cx="300" cy="90" r="2"/>
+      <circle cx="120" cy="380" r="2"/>
+      <circle cx="345" cy="470" r="2.5"/>
+      <circle cx="70" cy="560" r="2"/>
+      <circle cx="250" cy="620" r="2.5"/>
+      <circle cx="180" cy="200" r="1.8"/>
+      <circle cx="330" cy="300" r="1.8"/>
+    </g>
+    <g fill="#C87D5A" opacity="0.75">
+      <path d="M215 85 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4 z"/>
+      <path d="M300 400 l3.5 8 8 3.5 -8 3.5 -3.5 8 -3.5 -8 -8 -3.5 8 -3.5 z"/>
+      <path d="M85 640 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 z"/>
+    </g>
+
+    <!-- rocket -->
+    <g transform="translate(178 175)">
+      <path d="M32 0 C52 26 60 62 60 96 L60 128 L4 128 L4 96 C4 62 12 26 32 0 Z" fill="#F5F0EA"/>
+      <path d="M4 96 L4 128 L-18 150 C-22 122 -12 104 4 96 Z" fill="#C87D5A"/>
+      <path d="M60 96 L60 128 L82 150 C86 122 76 104 60 96 Z" fill="#C87D5A"/>
+      <ellipse cx="32" cy="58" rx="12" ry="14" fill="#1C1917"/>
+      <path d="M20 128 C24 156 32 174 32 174 C32 174 40 156 44 128 Z" fill="#C87D5A"/>
+    </g>
+
+    <!-- planet -->
+    <g transform="translate(190 460)">
+      <circle cx="80" cy="70" r="70" fill="url(#planetGrad)"/>
+      <ellipse cx="80" cy="70" rx="128" ry="26" fill="none" stroke="#F5F0EA" stroke-width="3" opacity="0.85" transform="rotate(-18 80 70)"/>
+    </g>
+
+    <!-- ============ CONTENT ============ -->
+    <g transform="translate(480 0)">
+
+      <!-- name -->
+      <text x="0" y="145" font-family="Georgia, 'Times New Roman', serif" font-size="62" fill="#F5F0EA">shrey sharma</text>
+
+      <!-- subtitle -->
+      <text x="2" y="188" font-size="22" fill="#A8A29E">
+        <tspan>cs @ university of lucknow</tspan>
+        <tspan fill="#A8A29E"> · </tspan>
+        <tspan fill="#C87D5A">ai systems</tspan>
+        <tspan fill="#A8A29E"> · agents · gpu · inference</tspan>
+      </text>
+
+      <line x1="0" y1="215" x2="660" y2="215" stroke="#3A3532" stroke-width="1.5"/>
+
+      <!-- key-value rows -->
+      <text x="0" y="262" font-size="19" fill="#78716C">focus</text>
+      <text x="160" y="262" font-size="19" fill="#E7E5E4">verified autonomy · efficient ml</text>
+
+      <text x="0" y="298" font-size="19" fill="#78716C">location</text>
+      <text x="160" y="298" font-size="19" fill="#E7E5E4">india · open to relocate</text>
+
+      <!-- stats -->
+      <g transform="translate(0 360)">
+        <text x="0" y="0" font-family="Georgia, serif" font-size="46" fill="#F5F0EA">XXX</text>
+        <text x="2" y="26" font-size="15" fill="#78716C" letter-spacing="0.5">contributions</text>
+
+        <text x="200" y="0" font-family="Georgia, serif" font-size="46" fill="#F5F0EA">XX</text>
+        <text x="202" y="26" font-size="15" fill="#78716C" letter-spacing="0.5">last 14 days</text>
+
+        <text x="390" y="0" font-family="Georgia, serif" font-size="46" fill="#F5F0EA">XX</text>
+        <text x="392" y="26" font-size="15" fill="#78716C" letter-spacing="0.5">repos</text>
+
+        <text x="530" y="0" font-family="Georgia, serif" font-size="46" fill="#F5F0EA">X</text>
+        <text x="532" y="26" font-size="15" fill="#78716C" letter-spacing="0.5">years on github</text>
+      </g>
+
+      <line x1="0" y1="410" x2="660" y2="410" stroke="#3A3532" stroke-width="1.5"/>
+
+      <!-- skill categories -->
+      <g font-size="18">
+        <text x="0" y="450" fill="#C87D5A">languages</text>
+        <text x="200" y="450" fill="#E7E5E4">Python · C++ · CUDA · SQL · Bash</text>
+
+        <text x="0" y="484" fill="#C87D5A">ai / ml</text>
+        <text x="200" y="484" fill="#E7E5E4">PyTorch · TensorFlow · Hugging Face · scikit-learn · XGBoost</text>
+
+        <text x="0" y="518" fill="#C87D5A">agents &amp; llms</text>
+        <text x="200" y="518" fill="#E7E5E4">MCP · LangChain · ChromaDB · QLoRA · PEFT · RAG</text>
+
+        <text x="0" y="552" fill="#C87D5A">backends</text>
+        <text x="200" y="552" fill="#E7E5E4">FastAPI · SQLAlchemy · PostgreSQL · Redis · Playwright</text>
+
+        <text x="0" y="586" fill="#C87D5A">infra</text>
+        <text x="200" y="586" fill="#E7E5E4">Docker · AWS · Nsight Compute · CI/CD · Linux</text>
+      </g>
+
+      <!-- interests -->
+      <text x="0" y="628" font-size="17" fill="#78716C">chess · reading · systems that verify themselves</text>
+
+      <!-- contact -->
+      <g font-size="18">
+        <text x="0" y="664" fill="#C87D5A">email</text>
+        <text x="200" y="664" fill="#E7E5E4">shrey7shrey [at] gmail [dot] com</text>
+      </g>
+    </g>
+  </g>
+</svg>
